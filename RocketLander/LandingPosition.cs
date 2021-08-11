@@ -1,6 +1,6 @@
 ﻿namespace RocketLander
 {
-    public class LandingPosition
+    internal sealed class LandingPosition
     {
         private readonly int _clashAreaStartX;
         private readonly int _clashAreaEndX;
